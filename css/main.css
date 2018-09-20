@@ -90,6 +90,7 @@ li{
     width: auto;
     height: 420px;
     overflow: hidden;
+    border-radius: 5px;
 }
 
 #header-img img{
@@ -122,6 +123,7 @@ li{
 #branding #name{
     font-size: 60px;
     margin-bottom: 25px;
+    font-family: serif;
 }
 
 #header ul{
@@ -171,12 +173,18 @@ li{
 /*===========FOOTER===========*/
 #footer{
     background: #c10e0e;
-    padding: 5px 50px;
+    padding: 35px 50px;
     margin: 0;
+}
+
+#footer-title{
+    color: #FFF;
+    margin-left: 50px;
 }
 
 #profiles{
     list-style: none;
+    margin: 25px;
 }
 
 /*==========Icons=============*/
